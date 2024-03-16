@@ -10,6 +10,8 @@ public class Main {
     //Method
     //Public refers to access modifier
     //Static refers to the accessibility, it belongs to its class rather than instance, rather think of them as global
+
+    //Methods cannot standalone, they must be encapsulated within a class
     public static void greeting(int num) {
         for (int i = 0; i < num; i++) {
             System.out.println("Hello");
